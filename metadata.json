@@ -1,0 +1,6 @@
+{
+  "name": "ScribeEdu",
+  "description": "Academic Document Transcriber, Question Paper Digitizer & LaTeX OCR Assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

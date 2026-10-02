@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer shadow or glow for depth -->
+    <path
+        android:fillColor="#15000000"
+        android:pathData="M34,26 H74 C78,26 82,30 82,34 V74 C82,78 78,82 74,82 H34 C30,82 26,78 26,74 V34 C26,30 30,26 34,26 Z" />
+
+    <!-- Main document board (white sheet) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,24 H72 C76,24 80,28 80,32 V72 C80,76 76,80 72,80 H32 C28,80 24,76 24,72 V32 C24,28 28,24 32,24 Z" />
+
+    <!-- Document folded corner accent for visual elegance -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M68,24 L80,36 H68 V24 Z" />
+
+    <!-- Stylized document text/lines (Academic lines) -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M32,36 H56 V39 H32 Z M32,44 H50 V47 H32 Z M32,52 H44 V55 H32 Z M32,60 H60 V63 H32 Z M32,68 H54 V71 H32 Z" />
+
+    <!-- Large Mathematics Integration symbol (∫) representing STEM capabilities -->
+    <path
+        android:fillColor="#512DA8"
+        android:pathData="M65,45 C66.5,45 67.5,46 67.5,47.5 C67.5,49 66,51.5 64.5,54.5 C63,57.5 62,60.5 62,62.5 C62,64.5 63,65.5 64.5,65.5 C65.5,65.5 66.5,65 67,64.5 L68,66 C67,67.5 65.5,68 64,68 C61.5,68 60,66.5 60,64 C60,61 61.5,57.5 63,54 C64.5,50.5 65.5,48 65.5,46.5 C65.5,45.5 64.5,45 63.5,45 C62.5,45 61.5,45.5 61,46 L60,44.5 C61,43 63,42.5 65,42.5 C65,42.5 65,45 65,45 Z" />
+
+    <!-- Stylized Sigma (Σ) notation next to integral representing math equations -->
+    <path
+        android:fillColor="#00796B"
+        android:pathData="M56,44 H68 V46.5 L60,53 L68,59.5 V62 H56 V59 H64 L58,53 L64,47 H56 V44 Z" />
+
+    <!-- Decorative lens/OCR target frame elements on the corners representing digital scanning -->
+    <path
+        android:fillColor="#303F9F"
+        android:pathData="M20,28 V20 H28 V22 H22 V28 H20 Z M88,28 H86 V22 H80 V20 H88 V28 Z M20,80 H22 V86 H28 V88 H20 V80 Z M88,80 V88 H80 V86 H86 V80 H88 Z" />
+
+</vector>
