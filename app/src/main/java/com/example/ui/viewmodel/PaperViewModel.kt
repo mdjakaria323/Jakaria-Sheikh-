@@ -358,6 +358,10 @@ class PaperViewModel(private val repository: PaperRepository) : ViewModel() {
         }
     }
 
+    fun clearError() {
+        error.value = null
+    }
+
     // Helper to extract bitmap from local resource or URI if needed
     fun base64ToBitmap(base64Str: String): Bitmap? {
         return try {

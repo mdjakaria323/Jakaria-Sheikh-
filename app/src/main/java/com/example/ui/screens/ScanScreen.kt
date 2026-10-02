@@ -100,6 +100,7 @@ fun ScanScreen(
         if (uri != null) {
             selectedImageUri = uri
             selectedSampleIndex = null
+            viewModel.clearError()
             try {
                 val inputStream: InputStream? = context.contentResolver.openInputStream(uri)
                 val bitmap = BitmapFactory.decodeStream(inputStream)
@@ -355,6 +356,7 @@ fun ScanScreen(
                                     selectedImageUri = null
                                     selectedSubject = sample.subject
                                     title = "ScribeEdu - Digitized ${sample.title}"
+                                    viewModel.clearError()
                                 }
                                 .testTag("template_card_$index"),
                             border = if (isSelected) BorderStroke(1.5.dp, MaterialTheme.colorScheme.primary) else null,
@@ -605,6 +607,7 @@ fun ScanScreen(
                             selectedImageUri = null
                             selectedSampleIndex = null
                             showCameraPreview = false
+                            viewModel.clearError()
                         },
                         onCancel = {
                             showCameraPreview = false
